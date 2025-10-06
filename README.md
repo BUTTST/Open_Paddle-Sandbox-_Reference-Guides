@@ -13,8 +13,8 @@
 
 本專案於 **2025-09-30** 完成實測，並在 **2025-10** 進行重大重構：
 
-- 將所有「產品與平台參數的建立與取得」整合為一份一站式圖文指南：`01-Paddle完整設定指南.md`
-- 新增一份「本地 Sandbox 實作」專用指南：`02-本地沙盒實作指南.md`
+- 將所有「產品與平台參數的建立與取得」整合為一份一站式圖文指南：[01-Paddle完整設定指南](./docs/01-Paddle完整設定指南.md)
+- 新增一份「本地 Sandbox 實作」專用指南：[02-本地沙盒實作指南](./docs/02-本地沙盒實作指南.md)
 
 ### 初心與用意
 
@@ -90,7 +90,7 @@ NEXT_PUBLIC_PADDLE_CLIENT_TOKEN=test_你的SandboxToken
 NEXT_PUBLIC_PADDLE_PRICE_ID=pri_你的SandboxPriceId
 ```
 
-> 💡 參數取得位置：請依 `docs/01-Paddle完整設定指南.md` 操作；若需本地運行細節，請見 `docs/02-本地沙盒實作指南.md`
+> 💡 參數取得位置：請依 [01-Paddle完整設定指南](./docs/01-Paddle完整設定指南.md) 操作；若需本地運行細節，請見 [02-本地沙盒實作指南](./docs/02-本地沙盒實作指南.md)
 
 ### 第 4 步：啟動開發伺服器
 
@@ -254,61 +254,14 @@ Open_Paddle-Sandbox-_Reference-Guides/
 1. **📖 查閱文檔**：先查看 [docs/](./docs/) 資料夾中的詳細指南
 2. **❓ 常見問題**：參考 [04-常見問題與除錯.md](./docs/04-常見問題與除錯.md)
 3. **🐛 回報 Bug**：[提交 Issue](https://github.com/BUTTST/Open_Paddle-Sandbox-_Reference-Guides/issues)
-4. **💬 討論交流**：[GitHub Discussions](https://github.com/BUTTST/Open_Paddle-Sandbox-_Reference-Guides/discussions)
-5. **📧 聯絡作者**：your-email@example.com
-
----
-
-## 🙏 致謝
-
-感謝以下資源與社群：
-
-- [Paddle](https://www.paddle.com/) - 提供優秀的金流服務
-- [Next.js](https://nextjs.org/) - 強大的 React 框架
-- [Vercel](https://vercel.com/) - 優秀的部署平台
-- 所有提供回饋與貢獻的開發者
-
----
-
-## 📊 專案狀態
-
-- ✅ **核心功能**：完成
-- ✅ **基礎文檔**：完成
-- ⏳ **截圖補充**：進行中（歡迎貢獻）
-- ⏳ **多語言版本**：計畫中
-
----
-
-## 🗺️ 路線圖
-
-### v1.0.0（當前版本）
-- ✅ 基本整合範例
-- ✅ 完整中文文檔
-- ✅ Webhook 處理範例
-
-### v1.1.0（計畫中）
-- ⏳ 補充所有操作截圖
-- ⏳ 新增訂閱管理範例
-- ⏳ 新增客戶入口頁面
-
-### v2.0.0（未來規劃）
-- ⏳ 英文文檔版本
-- ⏳ 資料庫整合範例
-- ⏳ 完整的使用者權限系統
-
----
+4. **💬 討論交流**：[GitHub Discussions](https://github.com/BUTTST/Open_Paddle-Sandbox-_Reference-Guides/discussions)---
 
 ## 📝 更新日誌
 
-### 2025-10-01
+### 2025-10-06
 - 🎉 首次發布 v1.0.0
 - ✨ 完整的 Paddle Billing v2 整合
 - 📚 5 份詳盡的中文操作指南
 - 🔒 所有敏感資訊已脫敏處理
 
----
-
-**Made with ❤️ by the Open Source Community**
-
-如果這個專案對你有幫助，請給我們一個 ⭐ Star！
 
