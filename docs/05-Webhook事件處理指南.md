@@ -4,6 +4,14 @@
 
 ---
 
+## ⚠️ 文檔免責聲明
+
+**本指南全文由 AI 生成，「無人工審閱」  
+雖然已盡力確保準確性，但仍可能存在偏差或錯誤，  
+請自行驗證並以實際操作結果為準。**
+
+---
+
 > ⚠️ 正式環境必讀：請先完成 Webhook 設置
 >
 > 1) 在 Paddle Dashboard 建立 Webhook endpoint（Developer Tools → Notifications → Add endpoint）
